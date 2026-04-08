@@ -291,8 +291,15 @@ void fire_shotgun (edict_t *self, vec3_t start, vec3_t aimdir, int damage, int k
 {
 	int		i;
 
-	for (i = 0; i < count; i++)
-		fire_lead (self, start, aimdir, damage, kick, TE_SHOTGUN, hspread, vspread, mod);
+	for (i = 0; i < count; i++) {
+		if (i % 2 == 1) {
+			aimdir[1] += i*.1f;
+		}
+		else {
+			aimdir[1] -= i * .1f;
+		}
+		fire_rocket(self, start, aimdir, damage, 650, 100, 10);
+	}
 }
 
 

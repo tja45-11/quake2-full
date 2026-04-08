@@ -1,0 +1,9 @@
+﻿C:\Program Files\Microsoft Visual Studio\18\Enterprise\MSBuild\Microsoft\VC\v180\Microsoft.CppBuild.targets(534,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  g_weapon.c
+C:\Users\icema\OneDrive\Documents\GitHub\quake2-full\game\g_weapon.c(290,127): warning C4100: 'mod': unreferenced parameter
+C:\Users\icema\OneDrive\Documents\GitHub\quake2-full\game\g_weapon.c(290,103): warning C4100: 'vspread': unreferenced parameter
+C:\Users\icema\OneDrive\Documents\GitHub\quake2-full\game\g_weapon.c(290,90): warning C4100: 'hspread': unreferenced parameter
+C:\Users\icema\OneDrive\Documents\GitHub\quake2-full\game\g_weapon.c(290,80): warning C4100: 'kick': unreferenced parameter
+C:\Users\icema\OneDrive\Documents\GitHub\quake2-full\game\g_weapon.c(462,68): warning C4100: 'plane': unreferenced parameter
+     Creating library .\..\release\gamex86.lib and object .\..\release\gamex86.exp
+  game.vcxproj -> C:\Program Files (x86)\Steam\steamapps\common\Quake 2\RocketMod\gamex86.dll
