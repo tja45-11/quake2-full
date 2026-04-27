@@ -483,9 +483,47 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 	if (!(dflags & DAMAGE_NO_PROTECTION) && CheckTeamDamage (targ, attacker))
 		return;
 
+	if (inflictor->element) {
+		elementTypes element = inflictor->element;
+		elementTypes aura = targ->aura;
+		switch (element) {
+		case (anemo):
+			if (aura > anemo && aura < geo)
+			{
+				damage += 10;
+				Com_Printf("Swirl\n");
+			}
+			break;
+		case (pyro):
+			switch (aura) {
+			case(cryo):
+				damage *= 2;
+				Com_Printf("Forward Melt\n");
+				break;
+			case(hydro):
+				damage *= 1.5;
+				Com_Printf("Reverse Vaporize\n");
+				break;
+			}
+			break;
+		case(hydro):
+			switch (aura) {
+			case(pyro):
+				damage *= 2;
+				Com_Printf("Forward Vaporizae\n");
+				break;
+			}
+			break;
+		}
+	}
+
+
 // do the damage
 	if (take)
 	{
+		if (targ->element) {
+			Com_Printf("element " + targ->element);
+		}
 		if ((targ->svflags & SVF_MONSTER) || (client))
 			SpawnDamage (TE_BLOOD, point, normal, take);
 		else

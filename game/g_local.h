@@ -961,6 +961,19 @@ struct gclient_s
 	qboolean	update_chase;		// need to update chase info?
 };
 
+typedef enum {
+	physical,
+	anemo,
+	pyro,
+	electro,
+	cryo,
+	hydro,
+	geo,
+	dendro,
+	freeze
+} elementTypes;
+
+
 
 struct edict_s
 {
@@ -1109,5 +1122,14 @@ struct edict_s
 	// common data blocks
 	moveinfo_t		moveinfo;
 	monsterinfo_t	monsterinfo;
+
+	// elemental variables
+	elementTypes	element;
+	elementTypes	aura;
+	elementTypes	aura2;
+	elementTypes	imbueAura;
+	float			aura1value;
+	float			aura2value;
+
 };
 

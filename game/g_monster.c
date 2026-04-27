@@ -418,6 +418,10 @@ void M_MoveFrame (edict_t *self)
 
 void monster_think (edict_t *self)
 {
+	if (self->imbueAura>physical) {
+		self->aura1value = self->imbueAura;
+		self->aura1value = 20;
+	}
 	M_MoveFrame (self);
 	if (self->linkcount != self->monsterinfo.linkcount)
 	{
@@ -576,6 +580,8 @@ qboolean monster_start (edict_t *self)
 	// randomize what frame they start on
 	if (self->monsterinfo.currentmove)
 		self->s.frame = self->monsterinfo.currentmove->firstframe + (rand() % (self->monsterinfo.currentmove->lastframe - self->monsterinfo.currentmove->firstframe + 1));
+
+	self->element = pyro;
 
 	return true;
 }
