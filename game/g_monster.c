@@ -422,6 +422,23 @@ void monster_think (edict_t *self)
 		self->aura1value = self->imbueAura;
 		self->aura1value = 20;
 	}
+	else 
+	{
+		if (curtime > self->lastTime + 100) 
+		{
+			self->lastTime = curtime;
+			Com_Printf("Update");
+			if (self->aura1value > 0)
+			{
+				self->aura1value -= .5;
+			} 
+			else
+			{
+				self->aura = physical;
+				self->aura1value = 0;
+			}
+		}
+	}
 	M_MoveFrame (self);
 	if (self->linkcount != self->monsterinfo.linkcount)
 	{
@@ -581,7 +598,8 @@ qboolean monster_start (edict_t *self)
 	if (self->monsterinfo.currentmove)
 		self->s.frame = self->monsterinfo.currentmove->firstframe + (rand() % (self->monsterinfo.currentmove->lastframe - self->monsterinfo.currentmove->firstframe + 1));
 
-	self->element = pyro;
+	//self->element = pyro;
+	self->lastTime = curtime;
 
 	return true;
 }

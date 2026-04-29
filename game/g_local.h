@@ -1130,6 +1130,7 @@ struct edict_s
 	elementTypes	imbueAura;
 	float			aura1value;
 	float			aura2value;
+	float			lastTime;
 
 };
 

@@ -492,6 +492,7 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 			{
 				damage += 10;
 				Com_Printf("Swirl\n");
+				targ->aura1value -= .5;
 			}
 			break;
 		case (pyro):
@@ -499,10 +500,20 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 			case(cryo):
 				damage *= 2;
 				Com_Printf("Forward Melt\n");
+				targ->aura1value -= 1;
 				break;
 			case(hydro):
 				damage *= 1.5;
 				Com_Printf("Reverse Vaporize\n");
+				targ->aura1value -= .5;
+				break;
+			case(pyro):
+				targ->aura1value += inflictor->aura;
+				if (targ->aura1value > 2)
+					targ->aura1value = 2;
+				break;
+			case(physical):
+
 				break;
 			}
 			break;
@@ -511,6 +522,7 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 			case(pyro):
 				damage *= 2;
 				Com_Printf("Forward Vaporizae\n");
+				targ->aura1value -= 1;
 				break;
 			}
 			break;
