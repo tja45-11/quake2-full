@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\p_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F575AF4A-7BDD-47F6-B65F-F43C514E0069}|quake2.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\q_shared.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -62,7 +62,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "g_local.h",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_local.h",
               "RelativeDocumentMoniker": "game\\g_local.h",
@@ -76,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "p_weapon.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_weapon.c",
               "RelativeDocumentMoniker": "game\\p_weapon.c",
@@ -123,11 +123,15 @@
               "RelativeDocumentMoniker": "game\\g_combat.c",
               "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_combat.c",
               "RelativeToolTip": "game\\g_combat.c",
-              "ViewState": "AgIAAPABAAAAAAAAAAAuwAECAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAICAAAAAAAAAAAuwA0CAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-04-27T14:35:07.504Z",
               "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             },
             {
               "$type": "Document",
@@ -139,12 +143,7 @@
               "RelativeToolTip": "client\\cl_fx.c",
               "ViewState": "AgIAAD8HAAAAAAAAAADgv0cHAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-04-29T14:48:49.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+              "WhenOpened": "2026-04-29T14:48:49.928Z"
             },
             {
               "$type": "Document",
@@ -156,8 +155,7 @@
               "RelativeToolTip": "game\\q_shared.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-04-27T14:24:04.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T14:24:04.354Z"
             },
             {
               "$type": "Document",
@@ -169,8 +167,7 @@
               "RelativeToolTip": "game\\q_shared.h",
               "ViewState": "AgIAAAMBAAAAAAAAAAAiwAsBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-27T14:24:02.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-27T14:24:02.824Z"
             },
             {
               "$type": "Document",

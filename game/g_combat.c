@@ -513,7 +513,9 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 					targ->aura1value = 2;
 				break;
 			case(physical):
-
+				Com_Printf("Apply Pyro\n");
+				targ->aura = pyro;
+				targ->aura1value = inflictor->aura1value;
 				break;
 			}
 			break;
@@ -521,9 +523,13 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 			switch (aura) {
 			case(pyro):
 				damage *= 2;
-				Com_Printf("Forward Vaporizae\n");
+				Com_Printf("Forward Vaporize\n");
 				targ->aura1value -= 1;
 				break;
+			case(cryo):
+				Com_Printf("Freeze\n");
+				targ->aura2 = freeze;
+
 			}
 			break;
 		}
