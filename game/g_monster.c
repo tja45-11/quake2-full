@@ -424,9 +424,9 @@ void monster_think (edict_t *self)
 	}
 	else 
 	{
-		if (curtime > self->lastTime + 100) 
+		if (level.time > self->lastTime + 1)
 		{
-			self->lastTime = curtime;
+			self->lastTime = level.time;
 			Com_Printf("Update");
 			if (self->aura1value > 0)
 			{
@@ -599,7 +599,7 @@ qboolean monster_start (edict_t *self)
 		self->s.frame = self->monsterinfo.currentmove->firstframe + (rand() % (self->monsterinfo.currentmove->lastframe - self->monsterinfo.currentmove->firstframe + 1));
 
 	//self->element = pyro;
-	self->lastTime = curtime;
+	self->lastTime = level.time;;
 
 	return true;
 }

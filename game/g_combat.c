@@ -486,6 +486,16 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 	if (inflictor->element) {
 		elementTypes element = inflictor->element;
 		elementTypes aura = targ->aura;
+		if (element == aura) {
+			targ->aura1value += inflictor->aura1value;
+			if (targ->aura1value > 2)
+				targ->aura1value = 2;
+		}
+		else if (aura == physical) {
+			Com_Printf("Apply Element\n");
+			targ->aura = element;
+			targ->aura1value = inflictor->aura1value;
+		}
 		switch (element) {
 		case (anemo):
 			if (aura > anemo && aura < geo)
@@ -507,18 +517,7 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 				Com_Printf("Reverse Vaporize\n");
 				targ->aura1value -= .5;
 				break;
-			case(pyro):
-				targ->aura1value += inflictor->aura;
-				if (targ->aura1value > 2)
-					targ->aura1value = 2;
-				break;
-			case(physical):
-				Com_Printf("Apply Pyro\n");
-				targ->aura = pyro;
-				targ->aura1value = inflictor->aura1value;
-				break;
 			}
-			break;
 		case(hydro):
 			switch (aura) {
 			case(pyro):
@@ -529,9 +528,35 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 			case(cryo):
 				Com_Printf("Freeze\n");
 				targ->aura2 = freeze;
-
+				break;
 			}
 			break;
+		case(cryo):
+			switch (aura) {
+			case (pyro):
+				damage *= 1.5;
+				Com_Printf("Reverse Melt\n");
+				targ->aura1value -= 1;
+				break;
+			case (hydro):
+				Com_Printf("Freeze\n");
+				targ->aura = cryo;
+				targ->aura1value = 1;
+				targ->aura2 = freeze;
+				break;
+			}
+			break;
+		case (geo):
+			if (aura > anemo && aura < geo) {
+				damage *= 1.2;
+				Com_Printf("Crystalize\n");
+				targ->aura1value -= .5;
+			}
+			break;
+		}
+		if (targ->aura1value < 0) {
+			targ->aura1value *= -1;
+			targ->aura = element;
 		}
 	}
 
