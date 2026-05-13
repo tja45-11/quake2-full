@@ -374,6 +374,8 @@ void fire_blaster (edict_t *self, vec3_t start, vec3_t dir, int damage, int spee
 	bolt->think = G_FreeEdict;
 	bolt->dmg = damage;
 	bolt->classname = "bolt";
+	bolt->element = self->element;
+	bolt->aura1value = self->aura1value;
 	if (hyper)
 		bolt->spawnflags = 1;
 	gi.linkentity (bolt);

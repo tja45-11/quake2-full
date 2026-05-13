@@ -483,7 +483,9 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 	if (!(dflags & DAMAGE_NO_PROTECTION) && CheckTeamDamage (targ, attacker))
 		return;
 
-	if (inflictor->element) {
+	//Com_Printf("Something Damage");
+
+	if (inflictor->element > physical) {
 		elementTypes element = inflictor->element;
 		elementTypes aura = targ->aura;
 		if (element == aura) {
@@ -564,14 +566,11 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 // do the damage
 	if (take)
 	{
-		if (targ->element) {
-			Com_Printf("element " + targ->element);
-		}
+		//Com_Printf("take damage");
 		if ((targ->svflags & SVF_MONSTER) || (client))
 			SpawnDamage (TE_BLOOD, point, normal, take);
 		else
 			SpawnDamage (te_sparks, point, normal, take);
-
 
 		targ->health = targ->health - take;
 			
@@ -584,7 +583,7 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 		}
 	}
 
-	if (targ->svflags & SVF_MONSTER)
+	if(targ->svflags & SVF_MONSTER)
 	{
 		M_ReactToDamage (targ, attacker);
 		if (!(targ->monsterinfo.aiflags & AI_DUCKED) && (take))

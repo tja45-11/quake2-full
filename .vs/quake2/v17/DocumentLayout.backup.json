@@ -7,8 +7,40 @@
       "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\p_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_hud.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\p_hud.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\p_client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\m_player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|solutionrelative:ctf\\m_player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_combat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_combat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_weapon.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_spawn.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_spawn.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|solutionrelative:ctf\\g_monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_func.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -19,24 +51,8 @@
       "RelativeMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|solutionrelative:ctf\\g_ctf.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F575AF4A-7BDD-47F6-B65F-F43C514E0069}|quake2.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\client\\client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F575AF4A-7BDD-47F6-B65F-F43C514E0069}|quake2.vcxproj|solutionrelative:client\\client.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_spawn.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_spawn.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_combat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\g_combat.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|solutionrelative:ctf\\g_monster.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F575AF4A-7BDD-47F6-B65F-F43C514E0069}|quake2.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\qcommon\\qcommon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -56,10 +72,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_cmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|solutionrelative:ctf\\g_cmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\p_client.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_svcmds.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -86,10 +98,6 @@
       "RelativeMoniker": "D:0:0:{99BC3F01-A7EE-4881-939F-8A5EB75E1973}|game\\game.vcxproj|solutionrelative:game\\m_berserk.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\m_player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|solutionrelative:ctf\\m_player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C50658D3-5399-49E0-B84E-296D8E01854F}|ctf\\ctf.vcxproj|solutionrelative:ctf\\g_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -105,13 +113,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "g_local.h",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_local.h",
               "RelativeDocumentMoniker": "game\\g_local.h",
               "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_local.h",
               "RelativeToolTip": "game\\g_local.h",
-              "ViewState": "AgIAACIBAAAAAAAAAAAMwC8BAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAIBAAAAAAAAAAAMwA0BAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-03T23:06:45.911Z",
               "IsPinned": true,
@@ -119,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "g_spawn.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_spawn.c",
               "RelativeDocumentMoniker": "game\\g_spawn.c",
@@ -139,7 +147,7 @@
               "RelativeDocumentMoniker": "game\\p_weapon.c",
               "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_weapon.c",
               "RelativeToolTip": "game\\p_weapon.c",
-              "ViewState": "AgIAADgDAAAAAAAAAAAMwEEDAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAANQDAAAAAAAAAAAwwIAEAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-12T20:13:34.163Z",
               "IsPinned": true,
@@ -147,13 +155,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "g_combat.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_combat.c",
               "RelativeDocumentMoniker": "game\\g_combat.c",
               "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_combat.c",
               "RelativeToolTip": "game\\g_combat.c",
-              "ViewState": "AgIAAOkBAAAAAAAAAAAowOwBAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAFQCAAAAAAAAAAAIwDgCAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-12T18:44:02.598Z",
               "IsPinned": true,
@@ -161,13 +169,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "g_monster.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_monster.c",
               "RelativeDocumentMoniker": "game\\g_monster.c",
               "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_monster.c",
               "RelativeToolTip": "game\\g_monster.c",
-              "ViewState": "AgIAAJkBAAAAAAAAAAAowKoBAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAKIBAAAAAAAAAAAMwK0BAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-03T23:11:40.661Z",
               "IsPinned": true,
@@ -175,7 +183,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "g_weapon.c",
+              "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_weapon.c",
+              "RelativeDocumentMoniker": "game\\g_weapon.c",
+              "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_weapon.c",
+              "RelativeToolTip": "game\\g_weapon.c",
+              "ViewState": "AgIAANUAAAAAAAAAAAAMwOAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-13T02:56:48.023Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "p_hud.c",
+              "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_hud.c",
+              "RelativeDocumentMoniker": "game\\p_hud.c",
+              "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_hud.c",
+              "RelativeToolTip": "game\\p_hud.c",
+              "ViewState": "AgIAADIBAAAAAAAAAAAowDgBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-05-13T16:25:21.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "client.h",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\client\\client.h",
               "RelativeDocumentMoniker": "client\\client.h",
@@ -183,12 +218,11 @@
               "RelativeToolTip": "client\\client.h",
               "ViewState": "AgIAABwAAAAAAAAAAAAowC0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-12T22:23:12.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T22:23:12.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "g_monster.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_monster.c",
               "RelativeDocumentMoniker": "ctf\\g_monster.c",
@@ -196,12 +230,11 @@
               "RelativeToolTip": "ctf\\g_monster.c",
               "ViewState": "AgIAAA0AAAAAAAAAAAAMwBoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T23:11:46.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:11:46.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "qcommon.h",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\qcommon\\qcommon.h",
               "RelativeDocumentMoniker": "qcommon\\qcommon.h",
@@ -209,12 +242,11 @@
               "RelativeToolTip": "qcommon\\qcommon.h",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-12T22:17:03.524Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T22:17:03.524Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Microsoft.CppBuild.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
@@ -222,12 +254,11 @@
               "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Enterprise\\MSBuild\\Microsoft\\VC\\v170\\Microsoft.CppBuild.targets",
               "ViewState": "AgIAAL8BAAAAAAAAAAAtwM4BAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2026-05-12T20:37:42.687Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T20:37:42.687Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "g_target.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_target.c",
               "RelativeDocumentMoniker": "game\\g_target.c",
@@ -235,12 +266,11 @@
               "RelativeToolTip": "game\\g_target.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T23:11:55.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:11:55.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "g_combat.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_combat.c",
               "RelativeDocumentMoniker": "ctf\\g_combat.c",
@@ -248,12 +278,11 @@
               "RelativeToolTip": "ctf\\g_combat.c",
               "ViewState": "AgIAABcAAAAAAAAAAAAMwCQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-12T18:43:36.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T18:43:36.273Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "g_svcmds.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_svcmds.c",
               "RelativeDocumentMoniker": "game\\g_svcmds.c",
@@ -265,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "cl_inv.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\client\\cl_inv.c",
               "RelativeDocumentMoniker": "client\\cl_inv.c",
@@ -277,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "g_cmds.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_cmds.c",
               "RelativeDocumentMoniker": "ctf\\g_cmds.c",
@@ -289,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "m_berserk.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\m_berserk.c",
               "RelativeDocumentMoniker": "game\\m_berserk.c",
@@ -301,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "m_berserk.h",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\m_berserk.h",
               "RelativeDocumentMoniker": "game\\m_berserk.h",
@@ -313,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "g_ctf.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_ctf.c",
               "RelativeDocumentMoniker": "ctf\\g_ctf.c",
@@ -321,12 +350,11 @@
               "RelativeToolTip": "ctf\\g_ctf.c",
               "ViewState": "AgIAAI8OAAAAAAAAAAAowJ0OAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T23:10:26.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:10:26.77Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "p_client.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_client.c",
               "RelativeDocumentMoniker": "game\\p_client.c",
@@ -334,11 +362,12 @@
               "RelativeToolTip": "game\\p_client.c",
               "ViewState": "AgIAAJoAAAAAAAAAAAAcwKgAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T23:09:28.231Z"
+              "WhenOpened": "2026-05-03T23:09:28.231Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 4,
               "Title": "m_player.h",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\m_player.h",
               "RelativeDocumentMoniker": "ctf\\m_player.h",
@@ -346,11 +375,12 @@
               "RelativeToolTip": "ctf\\m_player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T23:09:03.457Z"
+              "WhenOpened": "2026-05-03T23:09:03.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "m_player.h",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\m_player.h",
               "RelativeDocumentMoniker": "game\\m_player.h",
@@ -362,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "g_local.h",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_local.h",
               "RelativeDocumentMoniker": "ctf\\g_local.h",
@@ -374,7 +404,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "g_turret.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_turret.c",
               "RelativeDocumentMoniker": "game\\g_turret.c",
@@ -386,7 +416,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "g_func.c",
               "DocumentMoniker": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\ctf\\g_func.c",
               "RelativeDocumentMoniker": "ctf\\g_func.c",
@@ -394,8 +424,7 @@
               "RelativeToolTip": "ctf\\g_func.c",
               "ViewState": "AgIAAFoHAAAAAAAAAAAowGgHAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T22:49:31.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T22:49:31.969Z"
             }
           ]
         }

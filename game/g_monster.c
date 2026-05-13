@@ -424,13 +424,13 @@ void monster_think (edict_t *self)
 	}
 	else 
 	{
-		if (level.time > self->lastTime + 1)
+		if (level.time > self->lastTime + 3)
 		{
 			self->lastTime = level.time;
-			Com_Printf("Update");
-			if (self->aura1value > 0)
+			//Com_Printf("Update");
+			if (self->aura1value > .5)
 			{
-				self->aura1value -= .5;
+				//self->aura1value -= .5;
 			} 
 			else
 			{
