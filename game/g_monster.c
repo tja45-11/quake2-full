@@ -418,8 +418,8 @@ void M_MoveFrame (edict_t *self)
 
 void monster_think (edict_t *self)
 {
-	if (self->imbueAura>physical) {
-		self->aura1value = self->imbueAura;
+	if (self->imbueAura!=physical) {
+		self->aura = self->imbueAura;
 		self->aura1value = 20;
 	}
 	else 
@@ -427,13 +427,14 @@ void monster_think (edict_t *self)
 		if (level.time > self->lastTime + 3)
 		{
 			self->lastTime = level.time;
-			//Com_Printf("Update");
 			if (self->aura1value > .5)
 			{
-				//self->aura1value -= .5;
+				self->aura1value -= .5;
+				Com_Printf("Aura Dispersed\n");
 			} 
-			else
+			else if (self->aura != physical)
 			{
+				Com_Printf("Aura Gone\n");
 				self->aura = physical;
 				self->aura1value = 0;
 			}
@@ -559,7 +560,7 @@ qboolean monster_start (edict_t *self)
 		G_FreeEdict (self);
 		return false;
 	}
-
+	
 	if ((self->spawnflags & 4) && !(self->monsterinfo.aiflags & AI_GOOD_GUY))
 	{
 		self->spawnflags &= ~4;
@@ -598,8 +599,7 @@ qboolean monster_start (edict_t *self)
 	if (self->monsterinfo.currentmove)
 		self->s.frame = self->monsterinfo.currentmove->firstframe + (rand() % (self->monsterinfo.currentmove->lastframe - self->monsterinfo.currentmove->firstframe + 1));
 
-	//self->element = pyro;
-	self->lastTime = level.time;;
+	self->lastTime = level.time;
 
 	return true;
 }
@@ -610,6 +610,25 @@ void monster_start_go (edict_t *self)
 
 	if (self->health <= 0)
 		return;
+
+	switch (rand() & 7) {
+	case 2:
+		Com_Printf("Pyro Enemy\n");
+		self->imbueAura = pyro;
+		break;
+	case 3:
+		Com_Printf("Cryo Enemy\n");
+		self->imbueAura = cryo;
+		break;
+	case 4:
+		Com_Printf("Hydro Enemy\n");
+		self->imbueAura = hydro;
+		break;
+	default:
+		self->imbueAura = physical;
+		Com_Printf("Normal Enemy\n");
+		break;
+	}
 
 	// check for target to combat_point and change to combattarget
 	if (self->target)

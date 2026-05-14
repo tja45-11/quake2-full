@@ -318,10 +318,10 @@ void HelpComputer (edict_t *ent)
 		"xv 32 yv 8 picn help "			// background
 		"xv 202 yv 12 string2 \"%s\" "		// skill
 		"xv 0 yv 24 cstring2 \"%s\" "		// level name
-		"xv 0 yv 54 cstring2 \"%s\" "		// help 1
-		"xv 0 yv 110 cstring2 \"%s\" "		// help 2
+		"xv 0 yv 54 cstring2 \"Genshin Mod adds an elemental reaction system to Quake 2\" "		// help 1
+		"xv 0 yv 110 cstring2 \"tEvery gun has aelement it applies\nAll of them have unique attacks when fire is held down\" "		// help 2
 		"xv 50 yv 164 string2 \" kills     goals    secrets\" "
-		"xv 50 yv 172 string2 \"%3i/%3i     %i/%i       %i/%i\" ", 
+		"xv 50 yv 172 string2 \"\" ", 
 		sk,
 		level.level_name,
 		game.helpmessage1,

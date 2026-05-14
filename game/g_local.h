@@ -962,15 +962,15 @@ struct gclient_s
 };
 
 typedef enum {
-	physical,
-	anemo,
-	pyro,
-	electro,
-	cryo,
-	hydro,
-	geo,
-	dendro,
-	freeze
+	physical = 0,
+	anemo = 1,
+	pyro = 2,
+	electro = 3,
+	cryo = 4,
+	hydro = 5,
+	geo = 6,
+	dendro = 7,
+	freeze = 8
 } elementTypes;
 
 
@@ -1131,6 +1131,7 @@ struct edict_s
 	float			aura1value;
 	float			aura2value;
 	float			lastTime;
+	qboolean		charged;
 
 };
 

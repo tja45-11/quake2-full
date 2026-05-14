@@ -514,6 +514,8 @@ void fire_grenade (edict_t *self, vec3_t start, vec3_t aimdir, int damage, int s
 	grenade->dmg = damage;
 	grenade->dmg_radius = damage_radius;
 	grenade->classname = "grenade";
+	grenade->element = pyro;
+	grenade->aura1value = 2;
 
 	gi.linkentity (grenade);
 }
@@ -687,8 +689,12 @@ void fire_rail (edict_t *self, vec3_t start, vec3_t aimdir, int damage, int kick
 			else
 				ignore = NULL;
 
-			if ((tr.ent != self) && (tr.ent->takedamage))
-				T_Damage (tr.ent, self, self, aimdir, tr.endpos, tr.plane.normal, damage, kick, 0, MOD_RAILGUN);
+			if ((tr.ent != self) && (tr.ent->takedamage)) {
+				T_Damage(tr.ent, self, self, aimdir, tr.endpos, tr.plane.normal, damage, kick, 0, MOD_RAILGUN);
+				fire_grenade(self, tr.endpos, aimdir, damage / 5, 600, 2.5, 40);
+				fire_grenade(self, tr.endpos, aimdir, damage / 5, 600, 2.5, 40);
+				fire_grenade(self, tr.endpos, aimdir, damage / 5, 600, 2.5, 40);
+			}
 		}
 
 		VectorCopy (tr.endpos, from);

@@ -489,14 +489,25 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 		elementTypes element = inflictor->element;
 		elementTypes aura = targ->aura;
 		if (element == aura) {
-			targ->aura1value += inflictor->aura1value;
+			targ->aura1value += 1;
 			if (targ->aura1value > 2)
 				targ->aura1value = 2;
 		}
 		else if (aura == physical) {
-			Com_Printf("Apply Element\n");
+			switch (element) {
+			case pyro:
+				Com_Printf("Apply Pyro\n");
+				break;
+			case hydro:
+				Com_Printf("Apply Hydro\n");
+				break;
+			case cryo:
+				Com_Printf("Apply Cryo\n");
+				break;
+			}
+
 			targ->aura = element;
-			targ->aura1value = inflictor->aura1value;
+			targ->aura1value = 1;
 		}
 		switch (element) {
 		case (anemo):
@@ -529,7 +540,8 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 				break;
 			case(cryo):
 				Com_Printf("Freeze\n");
-				targ->aura2 = freeze;
+				targ->aura1value -= .5;
+				damage += targ->health * .2;
 				break;
 			}
 			break;
@@ -543,8 +555,8 @@ void T_Damage (edict_t *targ, edict_t *inflictor, edict_t *attacker, vec3_t dir,
 			case (hydro):
 				Com_Printf("Freeze\n");
 				targ->aura = cryo;
-				targ->aura1value = 1;
-				targ->aura2 = freeze;
+				targ->aura1value -= .5;
+				damage += targ->health * .2;
 				break;
 			}
 			break;
