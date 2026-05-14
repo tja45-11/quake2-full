@@ -126,8 +126,7 @@
               "ViewState": "AgIAALUDAAAAAAAAAAAYwMkDAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-03T23:06:45.911Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -140,8 +139,7 @@
               "ViewState": "AgIAAE4AAAAAAAAAAAAMwBkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-03T23:11:59.654Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -151,7 +149,7 @@
               "RelativeDocumentMoniker": "game\\p_weapon.c",
               "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\p_weapon.c",
               "RelativeToolTip": "game\\p_weapon.c",
-              "ViewState": "AgIAAAcDAAAAAAAAAAAgwBkDAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAALMDAAAAAAAAAAAgwKgDAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-12T20:13:34.163Z",
               "IsPinned": true,
@@ -165,7 +163,7 @@
               "RelativeDocumentMoniker": "game\\g_combat.c",
               "ToolTip": "C:\\Users\\icema\\OneDrive\\Documents\\GitHub\\quake2-full\\game\\g_combat.c",
               "RelativeToolTip": "game\\g_combat.c",
-              "ViewState": "AgIAAOQBAAAAAAAAAAAYwOsBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAPcBAAAAAAAAAAAAAGUAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-12T18:44:02.598Z",
               "IsPinned": true,
@@ -182,8 +180,7 @@
               "ViewState": "AgIAANAAAAAAAAAAAAAAAKUBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-03T23:11:40.661Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -210,8 +207,7 @@
               "ViewState": "AgIAAEQBAAAAAAAAAIAwwFIBAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-05-13T19:59:32.938Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -223,8 +219,7 @@
               "RelativeToolTip": "client\\client.h",
               "ViewState": "AgIAAB0AAAAAAAAAAAAowCsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-12T22:23:12.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-12T22:23:12.365Z"
             },
             {
               "$type": "Document",
@@ -236,8 +231,7 @@
               "RelativeToolTip": "game\\p_hud.c",
               "ViewState": "AgIAANABAAAAAAAAAAAQwKYBAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-13T16:25:21.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T16:25:21.841Z"
             },
             {
               "$type": "Document",
@@ -249,8 +243,7 @@
               "RelativeToolTip": "ctf\\g_monster.c",
               "ViewState": "AgIAAA0AAAAAAAAAAAAMwBoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T23:11:46.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:11:46.277Z"
             },
             {
               "$type": "Document",
@@ -322,8 +315,7 @@
               "RelativeToolTip": "client\\cl_inv.c",
               "ViewState": "AgIAAHkAAAAAAAAAAAAAAHcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T23:17:24.94Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:17:24.94Z"
             },
             {
               "$type": "Document",
@@ -371,8 +363,7 @@
               "RelativeToolTip": "ctf\\g_ctf.c",
               "ViewState": "AgIAAAwGAAAAAAAAAAAowBoGAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T23:10:26.77Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:10:26.77Z"
             },
             {
               "$type": "Document",
@@ -384,8 +375,7 @@
               "RelativeToolTip": "game\\p_client.c",
               "ViewState": "AgIAAAgGAAAAAAAAAAAYwKMGAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T23:09:28.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:09:28.231Z"
             },
             {
               "$type": "Document",
@@ -397,8 +387,7 @@
               "RelativeToolTip": "ctf\\m_player.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T23:09:03.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:09:03.457Z"
             },
             {
               "$type": "Document",
@@ -410,8 +399,7 @@
               "RelativeToolTip": "game\\m_player.h",
               "ViewState": "AgIAAOAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T23:08:53.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T23:08:53.777Z"
             },
             {
               "$type": "Document",
@@ -423,8 +411,7 @@
               "RelativeToolTip": "ctf\\g_local.h",
               "ViewState": "AgIAAIcDAAAAAAAAAAAowJUDAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-03T22:54:59.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T22:54:59.826Z"
             },
             {
               "$type": "Document",
@@ -448,8 +435,7 @@
               "RelativeToolTip": "ctf\\g_func.c",
               "ViewState": "AgIAAHQCAAAAAAAAAAAYwIgCAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2026-05-03T22:49:31.969Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-03T22:49:31.969Z"
             }
           ]
         }

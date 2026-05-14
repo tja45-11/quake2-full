@@ -934,6 +934,7 @@ void Weapon_HyperBlaster_Fire (edict_t *ent)
 					offset[0] = -4 * sin(rotation);
 					offset[1] = 0;
 					offset[2] = 4 * cos(rotation);
+					ent->charged = true;
 				}
 			Blaster_Fire (ent, offset, damage, true, effect);
 			if (! ( (int)dmflags->value & DF_INFINITE_AMMO ) )
