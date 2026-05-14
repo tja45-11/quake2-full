@@ -1,29 +1,19 @@
+Quake 2 GenshinMod. In order to install, simply move the genMod folder from the repository into the Quake 2 folder on steam, and replace the exe file with the quake2 exe file from the repository. Then open up Quake 2, type game genMod in the console (opened with ~), and enjoy. F1 will open up the help screen. Each gun has been given a certain element, listed below
+Blaster: Hydro
+Shotgun: Cryo
+Super Shotgun: Anemo
+Macchine Gun: Cryo
+Chaingun: Geo
+Hyperblaster: Anemo
+Grenade Launcher: Pyro
+Rocket Launcher: Geo
+Railgun: Geo
+Bfg: Hydro
 
-This is the complete source code for Quake 2, version 3.19, buildable with
-visual C++ 6.0.  The linux version should be buildable, but we haven't
-tested it for the release.
-
-The code is all licensed under the terms of the GPL (gnu public license).  
-You should read the entire license, but the gist of it is that you can do 
-anything you want with the code, including sell your new version.  The catch 
-is that if you distribute new binary versions, you are required to make the 
-entire source code available for free to everyone.
-
-The primary intent of this release is for entertainment and educational 
-purposes, but the GPL does allow commercial exploitation if you obey the 
-full license.  If you want to do something commercial and you just can't bear 
-to have your source changes released, we could still negotiate a separate 
-license agreement (for $$$), but I would encourage you to just live with the 
-GPL.
-
-All of the Q2 data files remain copyrighted and licensed under the 
-original terms, so you cannot redistribute data from the original game, but if 
-you do a true total conversion, you can create a standalone game based on 
-this code.
-
-Thanks to Robert Duffy for doing the grunt work of building this release.
-
-John Carmack
-Id Software
-
-
+Pyro onto Cryo = Melt: Damage *2
+Pyro onto Hydro = Reverse Vaporize: Damage *1.5
+Cryo onto Pyro = Reverse Melt: Damage *1.5
+Hydro onto Pyro = Forward Vaporize: Damage *2
+Hydro + Cryo = Freeze: 20% Max Health Damage
+Anemo onto Pyro/Cryo/Hydro = Swirl: +10 Flat Damage
+Geo onto Pyro/Cryo/Hydro = Crystalize: Damage *1.2
