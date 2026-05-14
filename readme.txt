@@ -9,3 +9,11 @@ Grenade Launcher: Pyro
 Rocket Launcher: Geo
 Railgun: Geo
 Bfg: Hydro
+
+Pyro onto Cryo = Melt: Damage *2
+Pyro onto Hydro = Reverse Vaporize: Damage *1.5
+Cryo onto Pyro = Reverse Melt: Damage *1.5
+Hydro onto Pyro = Forward Vaporize: Damage *2
+Hydro + Cryo = Freeze: 20% Max Health Damage
+Anemo onto Pyro/Cryo/Hydro = Swirl: +10 Flat Damage
+Geo onto Pyro/Cryo/Hydro = Crystalize: Damage *1.2
